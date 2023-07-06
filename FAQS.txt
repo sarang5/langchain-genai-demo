@@ -1,0 +1,10 @@
+What are CROWN roles?
+CROWN Roles allow you to have access to the Menu/Tabs which hold data and details relevant to the case currently being worked upon
+Where can I see my roles?
+The CROWN header contains an User Profile Icon on the top-right corner, on click of which you will be able to view your CROWN roles.",
+How can I request CROWN roles for myself?
+You can submit a request for a role via IdentityHub. Once your request is submitted it will have to be approved by the role owner.
+How can I add correct crown skills to myself?
+Please reach out to your supervisor to get assigned to correct CROWN skills
+I was working on a case and suddenly there was a power cut / connection failure. Is it possible to rework on that case?
+An unfinished case review due to some unforeseen situations such as a network/electricity failures would typically be pushed to queue for routing again, and delivered to any available teammates for review within the hour. If you'd like to work on the unfinished case within an hour, you can use the self-assignment feature in the 'My Worked Cases' module.

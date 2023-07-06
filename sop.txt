@@ -1,0 +1,86 @@
+CCI REVIEW
+Review for signs of account takeover (ATO), stolen financials, issues with linked accounts, and false identity.
+A. Access CCI (via Venus or within the CCI standalone (go/cci/)
+B. Identify account creation date.
+C. Determine if recent IP, Visitor ID (VID), and Flash Shared Objects (FSO) are associated with risk:
+  
+Determination
+Action
+  
+No risk found
+Continue review
+  
+ 
+ 
+Risk found
+1. Complete review of associated accounts for potential fraud and take appropriate
+action as needed –See Global RI limitation Placement Work Instruction (SOP1354) for assistance
+2. Flag IP/VID/FSO/DID – See Global Risk Account Identifiers Work Instruction (SOP759) for assistance
+3. Continue review
+  D. Determine number of accounts linked to Device ID (DID)– See Global Risk Account Identifiers Work Instruction (SOP759) for assistance:
+ 5orless:Completereviewofaccounts  6-100:ConfirmaccesstoHydra
+o No: Escalate queued account to Emb Spec via PET – See Global Risk Escalation Work Instruction (SOP786) for assistance
+o Yes: Submit Mass Restriction – See NA RI Emb Spec Hydra Admin Tool Guide (SOP1127) for assistance
+ Morethan100:EscalatequeuedaccounttoEmbSpecviaPET–SeeGlobalRiskEscalation Work Instruction (SOP786) for assistance
+E. Review for additional linked account(s):
+    
+Determination
+Action
+No account identified
+Continue review
+Linked account(s) identified
+1. Complete review of associated accounts for potential fraud, taking appropriate action as needed – See Global RI limitation Placement Work Instruction (SOP1354) for assistance
+2. Determine if linked account affects review decision – See Global Risk Account Linking (SOP784) for assistance
+3. Continue review
+F. Review following for credit card risk:  Accountslinkedbycreditcard
+ Global RI Fraud Queue Review WI 3 | P a g e
+ 5. Click Submit
+ Cardcurrency
+ Confirmationstatus
+ Dateaddedtoaccount
+ Lifetimedenieddollaramount
+ Lifetimesuccessfuldollaramount
+ Nameassociation
+ Prepaidcard
+G. Review following for bank account risk:
+Confidential & Proprietary
+ BatchIdentificationNumber(BIN):
+1. Copy 16-digit credit card number
+2. Open Admin Tools Bin Info tab
+3. Select Query via dropdown
+4. Paste 16-digit credit card number into card number field
+NOTE: Since BIN-checker is located on Bin Info tab in Admin Tools, it is safe to utilize 16- digit CC number. When utilizing third party BIN-checker, only first 6 digits are copied.
+      Businessassociation
+ Confirmationstatus
+ Dateaddedtoaccount
+H. Review profile information for risk:
+ Linkedaccounts  Nameassociation  Prepaidbank
+ Routingnumber
+   Profile Section
+   Risk Indicators
+     Email Address
+    Inconsistency with name on account  Suspicious domain name  Linkedaccounts  Suspiciousprefix
+ Multiple/Newlyadded
+     Street Address
+   Fraudulent/RejectedPartnerflag
+NOTE: If determination made that address requires flag update – See
+Global RI Fraudulent Address Review and Update (SOP1067) for assistance.  Geographicallyinconsistentlocation
+ Invalidinformation
+ Linkedaccounts
+ Multipleaddedtoaccountfrominconsistentstatesorlocations
+    Phone Number
+     Areacodenotmatchingaddress location
+ Invalidinformation
+ Linkedaccounts
+ VOIPphonenumber
+  SSN/TIN/EIN
+     Accountssharingsameinfo  Invalidnumber
+     Global RI Fraud Queue Review WI
+4 | P a g e
+
+ Confidential & Proprietary
+CPF and DOB
+verification (LATAM Risk)
+CPF number and DOB on Receita Federal do Brazil website do not match AH details
+  
+NOTE: APAC/EMEA Risk Teammates working Collusion MO review additional risk indicators – See Global RI Collusion Queue Work Instruction (SOP1058) for assistance.
